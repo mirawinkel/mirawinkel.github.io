@@ -128,43 +128,43 @@ h3 {
     margin-left: .15rem;
 }
 .phone-img{
-    max-height: 2rem;
-    max-width: 2rem;
+    height: 2rem;
+    width: 2rem;
     margin-bottom: -.5rem;
 }
 .git-img {
-    max-height: 1.8rem;
-    max-width: 2rem;
+    height: 1.8rem;
+    width: 2rem;
     margin-right: .5rem;
     margin-bottom: -.2rem;
 }
 .link-img {
-    max-height: 1.8rem;
-    max-width: 2rem;
+    height: 1.8rem;
+    width: 2rem;
     margin-right: .3rem;
     margin-bottom: -.23rem;
 }
 .email-img {
-    max-height: 1.3rem;
-    max-width: 1.1rem;
+    height: .8rem;
+    width: 1.1rem;
     margin-right: .1rem;
 }
 
 .edu-img img {
-    max-height: 1.8rem;
-    max-width: 2rem;
+    height: 1.5rem;
+    width: 2rem;
     margin-left: 2.2rem;
     margin-top: .03rem;
 }
 .work-img img {
-    max-height: 1.3rem;
-    max-width: 1.5rem;
+    height: 1.3rem;
+    width: 1.5rem;
     margin-top: .2rem;
     margin-left: 2.2rem;
 }
 .cert-img img{
-    max-height: 1.8rem;
-    max-width: 2rem;
+    height: 1.8rem;
+    width: 2rem;
     margin-top: -.08rem;
     margin-left: 2.2rem;
 }
