@@ -175,3 +175,12 @@ img #email {
 .i {
     grid-area: 3 / 9 / 15 / 12;
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    html {
+        font-size: 10px;
+    }
+}
