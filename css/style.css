@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
 
     background-image: linear-gradient(rgb(98, 211, 255), rgb(86, 219, 224), rgb(65, 162, 241));
@@ -29,7 +30,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: #ffffff48;
-    background-attachment:initial;
+    background-attachment: initial;
     flex-wrap: nowrap;
 }
 .main {
@@ -39,7 +40,7 @@ nav {
     margin: 2.0rem 0;
     background-position-y: center;
     width: 100%;
-    color: rgb(132, 43, 248);
+    color: rgb(154, 78, 253);
 }
 nav li {
     display: inline;
@@ -49,20 +50,22 @@ nav a {
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: bold;
-    color: rgb(155, 113, 209);
+    color: rgb(146, 65, 253);
     text-shadow: .08rem .08rem .08rem #000000;
     transition: color .3s ease-out;
 }
 nav a:hover {
     opacity: 85%;
-    color: rgb(255, 152, 224);
+    color: rgb(255, 0, 234);
 }
 .name {
     font-weight: bold;
-    font-size: 1.7rem;
     text-align: center;
     margin-bottom: 1rem;
     color: rgb(54, 54, 54)
+}
+.name h1 {
+    font-size: 4rem;
 }
 h2 {
     text-align: center;
@@ -73,11 +76,10 @@ h3 {
 .skills-element ul {
     list-style-type: none;
 }
-#bitmoji {
-    height: 16rem;
-    width: 16rem;
-    margin-bottom: 2rem;
-}
+
+/*         Contact Bar         */
+
+
 .contact-bar {
  
     background-image: linear-gradient(rgb(89, 155, 241), rgb(236, 108, 193), rgb(255, 255, 255) )  ;
@@ -91,44 +93,80 @@ h3 {
     list-style: none;
     font-size: 1.8rem;
     color: rgb(174, 115, 252);
-    text-shadow: .08rem .08rem .08rem #000000;
+    text-shadow: .07rem .07rem .07rem #000000;
 }
 .contact-bar li {
     margin-bottom: .5rem;
 }
 .contact-bar a {
-    color: rgb(174, 115, 252);
+    color: rgb(142, 70, 236);
     text-decoration: none;
-    transition: color .3s ease-out;
+    transition: color .22s ease-out;
+    -webkit-transition: color .22s ease-out;
+    -moz-transition: color .22s ease-out;
+    -ms-transition: color .22s ease-out;
+    -o-transition: color .22s ease-out;
 }
 .contact-bar a:hover {
     opacity: 85%;
-    color: rgb(86, 88, 248);
+    color: rgb(0, 174, 255);
+    text-shadow: .09rem .09rem .09rem #000000;
 }
-.gitImg {
-    margin-right: .5rem;
-}
-.linkImg {
-    margin-right: .3rem;
-}
+
 #email {
     font-size: 1.2rem;
 }
-img #email {
-    margin-right: .2rem;
+
+/*         Image Modifiers         */
+
+#bitmoji {
+    height: 16rem;
+    width: 16rem;
+    margin-bottom: 2rem;
 }
 .bar-img {
-    margin-left: .1rem;
+    margin-left: .15rem;
 }
-.edu-img{
-    margin-left:  2.2rem;
+.phone-img{
+    max-height: 2rem;
+    max-width: 2rem;
+    margin-bottom: -.5rem;
 }
-.work-img {
-    margin-top: .08rem;
-    margin-left: 2rem;
+.git-img {
+    max-height: 1.8rem;
+    max-width: 2rem;
+    margin-right: .5rem;
+    margin-bottom: -.2rem;
 }
-.cert-img {
-    margin-left: 2rem;
+.link-img {
+    max-height: 1.8rem;
+    max-width: 2rem;
+    margin-right: .3rem;
+    margin-bottom: -.23rem;
+}
+.email-img {
+    max-height: 1.3rem;
+    max-width: 1.1rem;
+    margin-right: .1rem;
+}
+
+.edu-img img {
+    max-height: 1.8rem;
+    max-width: 2rem;
+    margin-left: 2.2rem;
+    margin-top: .03rem;
+}
+.work-img img {
+    max-height: 1.3rem;
+    max-width: 1.5rem;
+    margin-top: .2rem;
+    margin-left: 2.2rem;
+}
+.cert-img img{
+    max-height: 1.8rem;
+    max-width: 2rem;
+    margin-top: -.08rem;
+    margin-left: 2.2rem;
 }
 .grid {
     display: grid;
@@ -179,6 +217,6 @@ img #email {
   and (min-device-width: 375px) 
   and (max-device-width: 812px)  { 
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
