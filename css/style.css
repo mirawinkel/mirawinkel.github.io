@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    font-size: 10px;
+}
 body {
 
     background-image: linear-gradient(rgb(98, 211, 255), rgb(86, 219, 224), rgb(65, 162, 241));
@@ -213,10 +215,9 @@ h3 {
 .i {
     grid-area: 3 / 9 / 15 / 12;
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px)  { 
+@media only screen  
+  and (max-width: 1920px)  { 
     html {
-        font-size: 9px;
+        font-size: 16px;
     }
 }
