@@ -10,7 +10,6 @@ body {
 
     background-image: linear-gradient(rgb(98, 211, 255), rgb(86, 219, 224), rgb(65, 162, 241));
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: Trebuchet MS, Lucida Sans, Lucida Sans Regular, Lucida Grande, 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 } 
 .menu-body:after {
