@@ -5,15 +5,8 @@
     /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
     font-weight: 300 700;
     font-style: normal;
-  }
-
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
+
 html {
     font-size: 10px;
 }
@@ -75,11 +68,12 @@ body {
     color: rgb(54, 54, 54)
 }
 .name h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 h2 {
     text-align: center;
+    font-size: 2rem;
 }
 h3 {  
     text-align: center;
@@ -87,7 +81,15 @@ h3 {
 .skills-element ul {
     list-style-type: none;
 }
-
+.socialText {
+    font-size: 2.3rem;
+}
+.box {
+    border-radius: 1rem;
+    border: .3rem solid rgb(240, 232, 247);
+    background-color: rgb(202, 165, 235);
+    padding-top: .5rem auto;
+}
 /*         Contact Bar         */
 
 
