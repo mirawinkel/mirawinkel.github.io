@@ -45,7 +45,7 @@ body {
     font-size: 1.8rem;
     margin-left: 1rem;
     text-shadow: .1rem .1rem .1rem rgba(151, 151, 151, 0.384);
-    background: -webkit-linear-gradient(rgb(238, 94, 238), rgb(252, 166, 252), rgb(117, 207, 252), rgb(47, 156, 206) );
+    background: -webkit-linear-gradient(rgb(247, 26, 247), rgba(194, 16, 194, 0.808), rgba(117, 207, 252, 0.61), rgb(26, 124, 170) );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
