@@ -21,3 +21,61 @@ body {
     color:rgb(245, 245, 245);
     text-shadow: .2rem .1rem .2rem #000;
 }
+.container h1 {
+    font-size: 3.5rem;
+}
+.container h2 {
+    font-size: 1.5rem;
+}
+.btnContainer {
+    margin-top: 4rem;
+}
+button {
+    border-radius:.8rem;
+    font-family: 'Fira Code VF';
+    font-size: 1.3em;
+    background: none;
+    color: rgb(255, 255, 255);
+    border: 0.25rem solid #7019b8;
+    padding: 0.85em 0.75em;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-border-radius:.8rem;
+    -moz-border-radius:.8rem;
+    -ms-border-radius:.8rem;
+    -o-border-radius:.8rem;
+}
+button:hover {
+    color: hsl(268, 78%, 52%);
+    text-shadow: .04rem .04rem .04rem #000;
+}
+button::after {
+    content: "";
+    background: #ecf0f1;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+}
+button[class^="grow"]::after {
+    transition: all 0.3s ease;
+}
+button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+}
+button.grow_spin::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0) rotate(-180deg);
+    -webkit-transform: scale(0, 0) rotate(-180deg);
+    -moz-transform: scale(0, 0) rotate(-180deg);
+    -ms-transform: scale(0, 0) rotate(-180deg);
+    -o-transform: scale(0, 0) rotate(-180deg);
+}
+    button.grow_spin:hover::after {
+    transform: scale(1, 1) rotate(0deg);
+}
