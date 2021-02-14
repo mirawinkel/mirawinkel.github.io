@@ -5,16 +5,7 @@ body {
     height: 50rem;
     width: auto;
 }
-#brandtext {
-    font-size: 1.8rem;
-    margin-left: 1rem;
-    text-shadow: .1rem .1rem .1rem rgba(151, 151, 151, 0.384);
-    background: -webkit-linear-gradient(rgb(238, 94, 238), rgb(252, 166, 252), rgb(117, 207, 252), rgb(47, 156, 206) );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-}
+
 .container {
     display: relative;
     margin-top: 1.3rem;
