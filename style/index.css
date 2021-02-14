@@ -3,6 +3,7 @@ body {
     background-image: url('../img/beach.jpg');
     background-size: cover;
     height: 50rem;
+    width: auto;
 }
 #brandtext {
     font-size: 1.8rem;
