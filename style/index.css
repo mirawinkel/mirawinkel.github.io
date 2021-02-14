@@ -8,7 +8,7 @@ body {
 #brandtext {
     font-size: 1.8rem;
     margin-left: 1rem;
-    text-shadow: .1rem .1rem .1rem rgba(255, 255, 255, 0.384);
+    text-shadow: .1rem .1rem .1rem rgba(151, 151, 151, 0.384);
     background: -webkit-linear-gradient(rgb(238, 94, 238), rgb(252, 166, 252), rgb(117, 207, 252), rgb(47, 156, 206) );
     background-clip: text;
     -webkit-background-clip: text;
@@ -78,4 +78,11 @@ button.grow_spin::after {
 }
     button.grow_spin:hover::after {
     transform: scale(1, 1) rotate(0deg);
+}
+button:active {
+    color:#41bcdb;
+    background:#7019b8;
+}
+button:focus {
+    outline: none;
 }
