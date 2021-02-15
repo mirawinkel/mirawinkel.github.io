@@ -41,16 +41,7 @@ body {
 .main {
     min-height: 100vh;
 }
-#brandtext {
-    font-size: 1.8rem;
-    margin-left: 1rem;
-    text-shadow: .1rem .1rem .1rem rgba(151, 151, 151, 0.384);
-    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 85, 255, 0.808), rgb(254, 255, 255), rgb(0, 174, 255) );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-}
+
 
 #nav a {
     text-decoration: none;
@@ -77,12 +68,48 @@ body {
 .name h1 {
     font-size: 3.5rem;
     text-align: center;
+    color:rgb(215, 113, 255);
+    text-shadow: .15rem .1rem .2rem #000;
 }
 h2 {
     text-align: center;
     font-size: 2rem;
+    color:rgb(128, 229, 255);
+    text-shadow: .12rem .1rem .154rem #000;
+}
+h3 {
+    color: #fdb9ff;
+    text-shadow: .03rem .03rem .1rem #000;
+}
+h4 {
+    color: #ffffff;
+    text-shadow: .03rem .03rem .1rem #000;
+}
+h5 {
+    color: #ffffff;
+    text-shadow: .03rem .03rem .1rem #000;
+}
+p {
+    color: #fdfdfd;
+    text-shadow: .03rem .03rem .1rem #000;
+    line-height: 1.75rem;
 }
 
+#certLink a{
+    text-decoration: none;
+}
+#certLink h4 {
+    padding-left: 1.5rem;
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+#certLink h4:hover {
+    opacity: 85%;
+    color: rgb(128, 229, 255);
+}
 .skills-element ul {
     list-style-type: none;
 }
@@ -149,6 +176,7 @@ h2 {
 i {
     margin-right: .6rem;
 }
+
 
 @media only screen  
   and (max-width: 1920px)  { 
