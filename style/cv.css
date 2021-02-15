@@ -6,6 +6,7 @@ body {
     margin-left: 1rem;
     text-shadow: .1rem .1rem .1rem rgba(255, 255, 255, 0.226);
     background: -webkit-linear-gradient(rgb(238, 94, 238), rgb(252, 166, 252), rgb(117, 207, 252), rgb(47, 156, 206) );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
