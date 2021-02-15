@@ -5,7 +5,9 @@ body {
     height: 50rem;
     width: auto;
 }
-
+li a {
+    margin: .6rem;
+}
 .container {
     display: relative;
     margin-top: 1.3rem;
