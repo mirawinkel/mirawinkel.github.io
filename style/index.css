@@ -8,6 +8,23 @@ body {
 li a {
     margin: .6rem;
 }
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dropdown-item:hover {
+    background: none;
+}
+.dropdown-item:all {
+    background: none; 
+    box-shadow: inset 20px 20px none;
+}
+
+#firstItem{
+    margin-top: -1.8rem;
+}
 .container {
     display: relative;
     margin-top: 1.3rem;
