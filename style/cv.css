@@ -11,6 +11,9 @@ body {
     -webkit-text-fill-color: transparent;
     
 }
+.navbar li {
+    margin-left: 1rem;
+}
 .dropdown-menu {
     border: none;
     border-radius: 0;
