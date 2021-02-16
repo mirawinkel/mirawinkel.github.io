@@ -6,10 +6,12 @@ body {
     width: auto;
 }
 #brandtext {
-    font-size: 1.8rem;
+    font-family: 'Oh Now';
+    font-size: 2.2rem;
     margin-left: 1rem;
-    text-shadow: .1rem .1rem .1rem rgba(250, 101, 255, 0.5);
-    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 85, 255, 0.808), rgb(254, 255, 255), rgb(0, 174, 255) );
+    letter-spacing: .3rem;
+    text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.356);
+    background: -webkit-linear-gradient(#d80000 40%, rgb(255, 17, 17) 50%, #d80000 60% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,11 +56,11 @@ button {
     border-radius:.8rem;
     font-family: 'Fira Code VF';
     font-size: 1.3em;
-    box-shadow: 0 0 .3rem rgb(255, 58, 222);
+    box-shadow: 0 0 .3rem #d80000;
     background: none;
-    text-shadow: .1rem .1rem .3rem rgb(255, 58, 222);
+    text-shadow: .1rem .1rem .3rem #d80000;
     color: rgb(255, 255, 255);
-    border: 0.25rem solid #7019b8;
+    border: 0.25rem solid #d80000;
     padding: 0.85em 0.75em;
     margin: 1rem;
     position: relative;
@@ -70,7 +72,7 @@ button {
     -o-border-radius:.8rem;
 }
 button:hover {
-    color: hsl(268, 78%, 52%);
+    color: #d80000;
     text-shadow: .04rem .04rem .04rem #000;
 }
 button::after {
@@ -102,8 +104,8 @@ button.grow_spin::after {
     transform: scale(1, 1) rotate(0deg);
 }
 button:active {
-    color:#41bcdb;
-    background:#7019b8;
+    color:#fffd6c;
+    background:#d80000;
 }
 button:focus {
     outline: none;
