@@ -64,11 +64,11 @@ body {
 }
 #nav a:hover {
     opacity: 85%;
-    color: rgb(255, 255, 255);
+    color: #ff5959;
     text-shadow: .08rem .05rem .08rem #000000;
 }
 #nav a:active {
-    text-shadow: 0 0 .3rem #d80000;
+    text-shadow: 0 0 .3rem #fffb27;
 }
 #navDropdown {
     background-color:none;
@@ -131,7 +131,7 @@ p {
 }
 #certLink h4:active {
     color: #fff;
-    text-shadow: 0 0 .3rem #d80000;
+    text-shadow: 0 0 .3rem #fffb27;
 }
 #projectLink a{
     text-decoration: none;
@@ -150,7 +150,7 @@ p {
 }
 #projectLink a:active {
     color: #fff;
-    text-shadow: 0 0 .3rem #d80000;
+    text-shadow: 0 0 .3rem #fffb27;
 }
 .skills-element ul {
     list-style-type: none;
@@ -162,7 +162,7 @@ p {
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
-    border: .3rem solid #e98400;
+    border: .3rem solid #ff1919;
     background-color: rgb(255, 151, 151);
     padding: .7rem;
 }
@@ -171,8 +171,8 @@ p {
 
 .contact-bar {
  
-    background-image: linear-gradient(#d80000, rgb(255, 226, 219), #ffc628 )  ;
-    border: .3rem solid #e98400;
+    background-image: linear-gradient(#d80000, rgb(255, 226, 219), #ffa928 )  ;
+    border: .3rem solid #ff1919;
     border-radius: 1rem;
     min-width: 20rem;
 
@@ -199,11 +199,11 @@ p {
 }
 .contact-bar a:hover {
     opacity: 85%;
-    color: rgb(255, 255, 255);
+    color: #ff5959;
     text-shadow: .09rem .09rem .09rem #000000;
 }
 .contact-bar a:active {
-    text-shadow: 0 0 .3rem #d80000;
+    text-shadow: 0 0 .3rem #fffb27;
 }
 
 #email {

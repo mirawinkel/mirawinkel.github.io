@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 245, 189);
+    background-color: rgb(255, 255, 255);
 }
 #brandtext {
     font-size: 1.4rem;
@@ -56,7 +56,7 @@ button:hover {
 }
 button::after {
     content: "";
-    background: #ffffff;
+    background: #fff9c1;
     position: absolute;
     z-index: -1;
     padding: 0.85em 0.75em;
@@ -73,7 +73,7 @@ button.grow_spin::after {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #ffffff;
+    background: #fff9c1;
     transform: scale(0, 0) rotate(-180deg);
     -webkit-transform: scale(0, 0) rotate(-180deg);
     -moz-transform: scale(0, 0) rotate(-180deg);
