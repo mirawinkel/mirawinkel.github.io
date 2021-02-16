@@ -57,7 +57,7 @@ button {
     font-family: 'Fira Code VF';
     font-size: 1.3em;
     box-shadow: 0 0 .3rem #d80000;
-    background: none;
+    background: #ff7f7f5b;
     text-shadow: .1rem .1rem .3rem #d80000;
     color: rgb(255, 255, 255);
     border: 0.25rem solid #d80000;
