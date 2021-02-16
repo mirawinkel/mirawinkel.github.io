@@ -8,7 +8,7 @@ body {
 #brandtext {
     font-size: 1.8rem;
     margin-left: 1rem;
-    text-shadow: .1rem .1rem .1rem rgba(151, 151, 151, 0.384);
+    text-shadow: .1rem .1rem .1rem rgba(250, 101, 255, 0.5);
     background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 85, 255, 0.808), rgb(254, 255, 255), rgb(0, 174, 255) );
     background-clip: text;
     -webkit-background-clip: text;
@@ -54,6 +54,7 @@ button {
     border-radius:.8rem;
     font-family: 'Fira Code VF';
     font-size: 1.3em;
+    box-shadow: 0 0 .3rem rgb(255, 58, 222);
     background: none;
     text-shadow: .1rem .1rem .3rem rgb(255, 58, 222);
     color: rgb(255, 255, 255);

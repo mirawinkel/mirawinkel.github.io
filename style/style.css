@@ -100,6 +100,7 @@ p {
 #certLink h4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    color: rgb(154, 235, 255);
     transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
@@ -108,7 +109,22 @@ p {
 }
 #certLink h4:hover {
     opacity: 85%;
-    color: rgb(128, 229, 255);
+    color: rgb(255, 77, 240);
+}
+#projectLink a{
+    text-decoration: none;
+}
+#projectLink a {
+    color: rgb(154, 235, 255);
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+}
+#projectLink a:hover {
+    opacity: 85%;
+    color: rgb(253, 62, 237);
 }
 .skills-element ul {
     list-style-type: none;
