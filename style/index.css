@@ -7,7 +7,7 @@ body {
 }
 #brandtext {
     font-family: 'Oh Now';
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     margin-left: 1rem;
     letter-spacing: .3rem;
     text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.356);
@@ -15,7 +15,13 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+}
+#brandtext img {
+    position: relative;
+    margin-right: 1rem;
+    height: 4rem;
+    width: auto;
+    bottom: .2rem;
 }
 li a {
     margin: .6rem;
