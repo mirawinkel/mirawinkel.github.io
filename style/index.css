@@ -7,8 +7,8 @@ body {
 }
 #brandtext {
     font-family: 'Oh Now';
-    font-size: 2.4rem;
-    margin-left: 1rem;
+    font-size: 2.2rem;
+    margin-left: .8rem;
     letter-spacing: .3rem;
     text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.356);
     background: -webkit-linear-gradient(#d80000 40%, rgb(255, 17, 17) 50%, #d80000 60% );
