@@ -76,7 +76,13 @@ body {
 #navDropdown li:focus {
     background-color: none;
 }
-
+#brandimg {
+    position: relative;
+    margin-right: 1rem;
+    height: 4rem;
+    width: auto;
+    bottom: .2rem;
+}
 .name {
     font-weight: bold;
     text-align: center;

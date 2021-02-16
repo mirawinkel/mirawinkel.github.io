@@ -16,13 +16,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#brandtext img {
-    position: relative;
-    margin-right: 1rem;
-    height: 4rem;
-    width: auto;
-    bottom: .2rem;
-}
+
 li a {
     margin: .6rem;
 }
