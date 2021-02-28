@@ -5,6 +5,17 @@ body {
     height: 50rem;
     width: auto;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url(../img/beach2.jpg);
+    }
+    #brandtext{
+        font-size: 2rem;
+    }
+    .container h1 {
+        font-size: 2.8rem;
+    }
+}
 #brandtext {
     font-family: 'Oh Now';
     font-size: 2.2rem;
