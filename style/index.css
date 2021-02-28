@@ -13,7 +13,8 @@ body {
         font-size: 2rem;
     }
     .container h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
+        top: -2rem;
     }
 }
 #brandtext {
