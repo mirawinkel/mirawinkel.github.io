@@ -78,7 +78,7 @@ body {
 #brandimg {
     position: relative;
     margin-right: .5rem;
-    height: 4rem;
+    height: 3rem;
     width: auto;
     bottom: .2rem;
 }
@@ -88,12 +88,7 @@ body {
     margin-bottom: 1rem;
     color: rgb(54, 54, 54)
 }
-.name h1 {
-    font-size: 3.5rem;
-    text-align: center;
-    color:#d80000;
-    text-shadow: .15rem .1rem .2rem #000;
-}
+
 h2 {
     text-align: center;
     font-size: 2rem;
@@ -170,50 +165,6 @@ p {
     border: .3rem solid #ff1919;
     background-color: rgb(255, 151, 151);
     padding: .7rem;
-}
-/*         Contact Bar         */
-
-
-.contact-bar {
- 
-    background-image: linear-gradient(#d80000, rgb(255, 226, 219), #ffa928 )  ;
-    border: .3rem solid #ff1919;
-    border-radius: 1rem;
-    min-width: 20rem;
-
-}
-.contact-bar ul{
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.6rem;
-    color: #d80000;
-    text-shadow: .07rem .07rem .07rem #000000;
-}
-.contact-bar li {
-    margin-bottom: .5rem;
-}
-.contact-bar a {
-    color: #d80000;
-    text-decoration: none;
-    transition: color .22s ease-out;
-    -webkit-transition: color .22s ease-out;
-    -moz-transition: color .22s ease-out;
-    -ms-transition: color .22s ease-out;
-    -o-transition: color .22s ease-out;
-}
-.contact-bar a:hover {
-    opacity: 85%;
-    color: #ff5959;
-    text-shadow: .09rem .09rem .09rem #000000;
-}
-.contact-bar a:active {
-    text-shadow: 0 0 .3rem #fffb27;
-}
-
-#email {
-    margin-left: -.7rem;
-    font-size: 1.35rem;
 }
 
 /*         Image Modifiers         */

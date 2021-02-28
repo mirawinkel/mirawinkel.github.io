@@ -30,6 +30,12 @@ body {
 #firstItem{
     margin-top: -1rem;
 }
+.name h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color:#d80000;
+    text-shadow: .15rem .1rem .2rem #000;
+}
 h2 {
     color:#d80000;
     text-shadow: .12rem .1rem .154rem #000;
@@ -88,4 +94,48 @@ button:active {
 }
 button:focus {
     outline: none;
+}
+/*         Contact Bar         */
+
+
+.contact-bar {
+ 
+    background-image: linear-gradient(#d80000, rgb(255, 226, 219), #ffa928 )  ;
+    border: .3rem solid #ff1919;
+    border-radius: 1rem;
+    min-width: 20rem;
+
+}
+.contact-bar ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.6rem;
+    color: #d80000;
+    text-shadow: .07rem .07rem .07rem #000000;
+}
+.contact-bar li {
+    margin-bottom: .5rem;
+}
+.contact-bar a {
+    color: #d80000;
+    text-decoration: none;
+    transition: color .22s ease-out;
+    -webkit-transition: color .22s ease-out;
+    -moz-transition: color .22s ease-out;
+    -ms-transition: color .22s ease-out;
+    -o-transition: color .22s ease-out;
+}
+.contact-bar a:hover {
+    opacity: 85%;
+    color: #ff5959;
+    text-shadow: .09rem .09rem .09rem #000000;
+}
+.contact-bar a:active {
+    text-shadow: 0 0 .3rem #fffb27;
+}
+
+#email {
+    margin-left: -.7rem;
+    font-size: 1.35rem;
 }

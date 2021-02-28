@@ -8,18 +8,18 @@ body {
 @media only screen and (max-width: 600px) {
     body {
       background-image: url(../img/beach2.jpg);
+      background-size: fill;
     }
     #brandtext{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .container h1 {
-        font-size: 2.5rem;
-        top: -2rem;
+        font-size: 2rem;
     }
 }
 #brandtext {
     font-family: 'Oh Now';
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-left: .6rem;
     letter-spacing: .3rem;
     text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.356);
@@ -56,7 +56,7 @@ li a {
     text-shadow: .2rem .1rem .2rem #000;
 }
 .container h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 .container h2 {
     font-size: 1.5rem;
