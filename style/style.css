@@ -103,29 +103,6 @@ body {
     color: rgb(54, 54, 54)
 }
 
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    
-}
-h3 {
-    color: #d80000;
-    text-shadow: .03rem .03rem .1rem #000;
-}
-h4 {
-    color: #ffffff;
-    text-shadow: .03rem .03rem .1rem #000;
-}
-h5 {
-    color: #ffffff;
-    text-shadow: .03rem .03rem .1rem #000;
-}
-p {
-    color: #fdfdfd;
-    text-shadow: .03rem .03rem .1rem #000;
-    line-height: 1.75rem;
-}
-
 #projectLink a{
     text-decoration: none;
 }

@@ -66,6 +66,7 @@ li a {
     font-family: 'Oh Now';
     font-size: 3rem;
     letter-spacing: .3rem;
+    text-align: center;
 }
 .tile h4 {
     text-align: center;
