@@ -78,7 +78,16 @@ li a {
     color: rgb(122, 3, 3);
     font-weight: 600;
     text-shadow: none;
-    text-align: left;
+    text-align: center;
+}
+.fa {
+    text-align: center;
+    align-items: center;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #fa9b9b 0%, #fc6e6e 8%, #f73d3d 30%, #ee3232 40%, transparent 80%),                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #ffafac 8%, #d16464 25%, #f75757 62.5%, #f73a3a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
 }
 /*-------------------------Buttons-----------------*/
 .btnContainer {
