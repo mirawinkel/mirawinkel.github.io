@@ -8,33 +8,26 @@ body {
 @media (max-width: 600px) {
     body {
       background-image: url(../img/beach2.jpg);
-      background-size: fill;
     }
     #brandtext{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     .container h1 {
         font-size: 2rem;
     }
     .firstTile {
         position: relative;
-        top: 10rem;
+        width: 120%;
+        top: 5rem;
     }
     .firstTile h1 {
         font-size: 2rem;
     }
+    #brandimg {
+        height: 2.2rem;
+    }
 }
-#brandtext {
-    font-family: 'Oh Now';
-    font-size: 2rem;
-    margin-left: .6rem;
-    letter-spacing: .3rem;
-    text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.356);
-    background: -webkit-linear-gradient(#d80000 40%, rgb(255, 17, 17) 50%, #d80000 60% );
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 li a {
     margin: .6rem;
@@ -139,7 +132,7 @@ button:focus {
 .firstTile {
     position: relative;
     top: 20rem;
-    width:100%;
+    width: 100%;
     padding: 2.3rem;
 }
 .tile {

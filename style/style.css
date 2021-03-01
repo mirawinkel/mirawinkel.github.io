@@ -78,6 +78,17 @@ body {
 #navDropdown li:focus {
     background-color: none;
 }
+#brandtext {
+    font-family: 'Oh Now';
+    font-size: 2rem;
+    margin-left: .6rem;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.356);
+    background: -webkit-linear-gradient(#d80000 40%, rgb(255, 17, 17) 50%, #d80000 60% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #brandimg {
     position: relative;
     margin-right: .5rem;
@@ -115,27 +126,6 @@ p {
     line-height: 1.75rem;
 }
 
-#certLink a{
-    text-decoration: none;
-}
-#certLink h4 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    color: rgb(255, 248, 215);
-    transition: all .14s ease-in-out;
-    -webkit-transition: all .14s ease-in-out;
-    -moz-transition: all .14s ease-in-out;
-    -ms-transition: all .14s ease-in-out;
-    -o-transition: all .14s ease-in-out;
-}
-#certLink h4:hover {
-    opacity: 85%;
-    color: #d80000;
-}
-#certLink h4:active {
-    color: #fff;
-    text-shadow: 0 0 .3rem #fffb27;
-}
 #projectLink a{
     text-decoration: none;
 }
@@ -161,14 +151,7 @@ p {
 .socialText {
     font-size: 2.3rem;
 }
-.box {
-    display: flex;
-    flex-direction: column;
-    border-radius: 1rem;
-    border: .3rem solid #ff1919;
-    background-color: rgb(255, 151, 151);
-    padding: .7rem;
-}
+
 
 /*         Image Modifiers         */
 

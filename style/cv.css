@@ -40,6 +40,34 @@ h2 {
     color:#d80000;
     text-shadow: .12rem .1rem .154rem #000;
 }
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: .3rem solid #ff1919;
+    background-color: rgb(255, 151, 151);
+    padding: .7rem .7rem;
+}
+
+#certLink a{
+    text-decoration: none;
+}
+#certLink h4 {
+    color: rgb(255, 248, 215);
+    transition: all .14s ease-in-out;
+    -webkit-transition: all .14s ease-in-out;
+    -moz-transition: all .14s ease-in-out;
+    -ms-transition: all .14s ease-in-out;
+    -o-transition: all .14s ease-in-out;
+}
+#certLink h4:hover {
+    opacity: 85%;
+    color: #d80000;
+}
+#certLink h4:active {
+    color: #fff;
+    text-shadow: 0 0 .3rem #fffb27;
+}
 button {
     border-radius:.8rem;
     background: none;
