@@ -67,10 +67,17 @@ li a {
     font-size: 3rem;
     letter-spacing: .3rem;
 }
-.tile p {
-    color: rgb(250, 33, 33);
-    text-shadow: none;
+.tile h4 {
     text-align: center;
+    font-size: 1.4rem;
+    color: rgb(221, 28, 28);
+    text-shadow: .03rem .04rem .08rem #000;
+}
+.tile p {
+    color: rgb(122, 3, 3);
+    font-weight: 600;
+    text-shadow: none;
+    text-align: left;
 }
 /*-------------------------Buttons-----------------*/
 .btnContainer {
