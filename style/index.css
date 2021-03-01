@@ -2,6 +2,7 @@ body {
     
     background-image: url('../img/beach.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 50rem;
     width: auto;
 }
@@ -10,7 +11,7 @@ body {
       background-image: url(../img/beach2.jpg);
     }
     #brandtext{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .container h1 {
         font-size: 2rem;
@@ -65,6 +66,11 @@ li a {
     font-family: 'Oh Now';
     font-size: 3rem;
     letter-spacing: .3rem;
+}
+.tile p {
+    color: rgb(250, 33, 33);
+    text-shadow: none;
+    text-align: center;
 }
 /*-------------------------Buttons-----------------*/
 .btnContainer {
@@ -131,7 +137,7 @@ button:focus {
 /*----------------------Animated Tiles----------------*/
 .firstTile {
     position: relative;
-    top: 20rem;
+    top: 16rem;
     width: 100%;
     padding: 2.3rem;
 }
@@ -148,8 +154,6 @@ button:focus {
     -o-transition: .4s;
     transition: .4s;
     opacity: 0;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
     -moz-transform: translateY(3rem) rotate(-5deg) translateZ(0);
     -ms-transform: translateY(3rem) rotate(-5deg) translateZ(0);
     -o-transform: translateY(3rem) rotate(-5deg) translateZ(0);
