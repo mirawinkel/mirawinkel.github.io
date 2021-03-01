@@ -17,6 +17,9 @@
     font-weight: 300 400 500 700;
     font-style: normal;
 }
+*{
+    box-sizing: border-box;
+}
 html {
     font-size: 10px;
 }
