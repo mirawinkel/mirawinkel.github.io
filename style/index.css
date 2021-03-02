@@ -6,28 +6,7 @@ body {
     height: 50rem;
     width: auto;
 }
-@media (max-width: 600px) {
-    body {
-      background-image: url(../img/beach2.jpg);
-    }
-    #brandtext{
-        font-size: 1.6rem;
-    }
-    .container h1 {
-        font-size: 2rem;
-    }
-    .firstTile {
-        position: relative;
-        width: 120%;
-        top: 5rem;
-    }
-    .firstTile h1 {
-        font-size: 2rem;
-    }
-    #brandimg {
-        height: 2.2rem;
-    }
-}
+
 
 
 li a {
@@ -331,4 +310,48 @@ button:focus {
     -moz-transform: scaleX(0);
     -ms-transform: scaleX(0);
     -o-transform: scaleX(0);
+}
+@media (max-width: 600px) {
+    body {
+      background-image: url(../img/beach2.jpg);
+    }
+    #brandtext{
+        font-size: 1.6rem;
+    }
+    .container h1 {
+        font-size: 2rem;
+    }
+    .tile {
+        position: relative;
+        width: 120%;
+        top: 5rem;
+    }
+    .tile h1 {
+        font-size: 2rem;
+    }
+    #brandimg {
+        height: 2.2rem;
+    }
+}
+@media (min-width: 1600px) {
+    html {
+        font-size: 20px;
+    }
+    .tile {
+        position: relative;
+        top: 40rem;
+    }
+}
+@media (min-width: 2200px) {
+    
+    .tile {
+        position: relative;
+        top: 60rem;
+    }
+
+}
+@media (min-width: 3500px) {
+    html {
+        font-size: 35px;
+    }
 }
