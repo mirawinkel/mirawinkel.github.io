@@ -14,7 +14,17 @@ body {
     text-shadow: .05rem .05rem .08rem #000000;
     transition: color .3s ease-out;
 }
-
+#brandtext {
+    font-family: 'Oh Now';
+    font-size: 2rem;
+    margin-left: .6rem;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 .3rem rgba(255, 255, 255, 0.5);
+    background: -webkit-linear-gradient(#a51438 40%, rgb(199, 65, 77) 50%, #ad1c40 60% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 li a {
     margin: .6rem;
@@ -323,6 +333,11 @@ button:focus {
     }
     #brandtext{
         font-size: 1.6rem;
+        text-shadow: 0 0 .15rem rgba(255, 255, 255, 0.384);
+        background: -webkit-linear-gradient(#8b0f2e 40%, rgb(150, 10, 22) 50%, #a10a30 55% );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .container h1 {
         font-size: 2rem;
