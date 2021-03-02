@@ -243,7 +243,7 @@ button:focus {
 .textFade i{
     text-align: center;
     align-items: center;
-    background: radial-gradient(ellipse farthest-corner at right bottom, #b92747 0%, #a7294d 8%, #a5204c 30%, #94122f 40%, transparent 80%),                radial-gradient(ellipse farthest-corner at left top, #e46c86 0%, #b93158 8%, #ce2e5b 25%, #b61945 62.5%, #86102d 100%);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #8d1c35 0%, #a7294d 8%, #8b1a40 30%, #941934 40%, transparent 80%),                radial-gradient(ellipse farthest-corner at left top, #e46c86 0%, #b93158 8%, #b92b53 25%, #aa1f46 62.5%, #86102d 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
