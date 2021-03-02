@@ -191,3 +191,8 @@ button:focus {
     margin-left: -.7rem;
     font-size: 1.35rem;
 }
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
