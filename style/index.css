@@ -324,7 +324,7 @@ button:focus {
     .tile {
         position: relative;
         width: 120%;
-        top: 5rem;
+        top: 10rem;
     }
     .tile h1 {
         font-size: 2rem;
