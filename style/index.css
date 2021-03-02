@@ -133,7 +133,6 @@ button:focus {
     padding: 2.3rem;
 }
 .tile {
-    height:25rem;
     margin-top:40px;
     background:#ffffff;
     -webkit-transform: translateY(3rem) rotate(-5deg) translateZ(0);
