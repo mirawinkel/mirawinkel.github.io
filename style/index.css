@@ -58,6 +58,23 @@ li a {
 #subTitle{
     font-size: 1.5rem;
 }
+.textFade a {
+    text-decoration: none;
+    text-shadow: .07rem .07rem .12rem #86102d;
+    color: rgb(71, 45, 49);
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+.textFade a:hover {
+    color: #ac2043;
+    text-shadow: .1rem .05rem .07rem #ffd883;
+}
+
+
+    
 
 /*-------------------------Buttons-----------------*/
 .btnContainer {
