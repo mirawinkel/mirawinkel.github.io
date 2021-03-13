@@ -53,6 +53,47 @@ li a {
 .container h1 {
     font-size: 2.5rem;
 }
+
 #subTitle{
     font-size: 1.5rem;
+}
+span {
+    position: absolute;
+    background: url(../img/heart.png);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 10rem;
+    background-size: cover;
+    animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+}
+@keyframes animate {
+    0%  
+    {
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+}
+    100%
+    {
+        
+        transform: translate(-50%, -1000%);
+        -webkit-transform: translate(-50%, -1000%);
+        -moz-transform: translate(-50%, -1000%);
+        -ms-transform: translate(-50%, -1000%);
+        -o-transform: translate(-50%, -1000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+        -webkit-filter: hue-rotate(720deg);
+}
 }
